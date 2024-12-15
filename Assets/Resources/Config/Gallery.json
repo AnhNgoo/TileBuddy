@@ -1,0 +1,51 @@
+{
+"gallery": [
+    {
+	  "id": 1,
+      "imgName": "cake", 
+      "name": "Fun Animals", 
+      "gold": 0,
+	  "typeCount" : 24
+    },
+    {
+        "id": 2,
+        "imgName": "he",
+        "name": "Wild Animal",
+        "gold": 400,
+        "typeCount": 16,
+        "unlockType": "pay"
+    },
+    {
+        "id": 3,
+        "imgName": "mao",
+        "name": "Households",
+        "gold": 600,
+        "typeCount": 25,
+        "unlockType": "pay"
+    }, 
+    {
+	  "id": 4,
+      "imgName": "j", 
+      "name": "Food", 
+      "gold": 0,
+	  "typeCount" : 20,
+	  "unlockType": "ad"
+    },
+    {
+        "id": 5,
+        "imgName": "che",
+        "name": "Cars",
+        "gold": 0,
+        "typeCount": 20,
+        "unlockType": "ad"
+    },
+    {
+        "id": 6,
+        "imgName": "sc",
+        "name": "Flags",
+        "gold": 0,
+        "typeCount": 20,
+        "unlockType": "ad"
+    }
+  ]
+}

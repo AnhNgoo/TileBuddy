@@ -1,0 +1,3556 @@
+/*
+ * Created on 2024
+ *
+ * Copyright (c) 2024 dotmobstudio
+ * Support : dotmobstudio@gmail.com
+ */
+
+/*
+- level : number of levels: integer
+- size : Size of the board : 4 size(1,2,3,4)
+- time : Time to complete each level (Calculated in seconds)
+- haveBomb : Bomb mode for each level (true or false)////
+- moveTypemove :Movement type: there are 6 types numbered from: 0,1,2,3,4,5
+*/
+
+{
+    "level": [
+        {
+            "level": 1,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 2,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 3,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 4,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 5,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 6,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 7,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 8,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 9,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 10,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 11,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 12,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 13,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 14,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 15,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 16,
+            "size": "3",
+            "time": 280,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 17,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 18,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 19,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 20,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 21,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 22,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 23,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 24,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 25,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 26,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 27,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 28,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 29,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 30,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 31,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 32,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 33,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 34,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 35,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 36,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 37,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 38,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 3
+        },
+        {
+            "level": 39,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 40,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 41,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 42,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 43,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 44,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 45,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 46,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 47,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 48,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 49,
+            "size": "3",
+            "time": 280,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 50,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 51,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 52,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 53,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 54,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 55,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 56,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 57,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 58,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 59,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 60,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 61,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 62,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 63,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 64,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 65,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 66,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 67,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 68,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 69,
+            "size": "2",
+            "time": 180,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 70,
+            "size": "1",
+            "time": 100,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 71,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 72,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 73,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 74,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 75,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 76,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 77,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 78,
+            "size": "1",
+            "time": 100,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 79,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 80,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 81,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 82,
+            "size": "3",
+            "time": 230,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 83,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 84,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 85,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 86,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 87,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 88,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 89,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 90,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 91,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 92,
+            "size": "3",
+            "time": 250,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 93,
+            "size": "1",
+            "time": 100,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 94,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 95,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 96,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 97,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 98,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 99,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 100,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 101,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 102,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 2
+        },
+        {
+            "level": 103,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 104,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 3
+        },
+        {
+            "level": 105,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 106,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 107,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 108,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 109,
+            "size": "2",
+            "time": 160,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 110,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 111,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 112,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 113,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 114,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 115,
+            "size": "3",
+            "time": 280,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 116,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 117,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 118,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 119,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 120,
+            "size": "3",
+            "time": 250,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 121,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 122,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 123,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 124,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 125,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 126,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 127,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 128,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 129,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 130,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 131,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 132,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 133,
+            "size": "1",
+            "time": 90,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 134,
+            "size": "1",
+            "time": 90,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 135,
+            "size": "1",
+            "time": 90,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 136,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 137,
+            "size": "1",
+            "time": 90,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 138,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 139,
+            "size": "1",
+            "time": 90,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 140,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 141,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 142,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 143,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 144,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 145,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 146,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 147,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 148,
+            "size": "3",
+            "time": 280,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 149,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 150,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 151,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 152,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 153,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 154,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 155,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 156,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 157,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 158,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 159,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 160,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 161,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 162,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 163,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 164,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 165,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 166,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 167,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 168,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 169,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 170,
+            "size": "1",
+            "time": 80,
+            "haveBomb": true,
+            "moveType": 3
+        },
+        {
+            "level": 171,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 172,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 173,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 174,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 175,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 176,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 177,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 178,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 179,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 180,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 181,
+            "size": "3",
+            "time": 280,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 182,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 183,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 184,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 185,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 186,
+            "size": "3",
+            "time": 240,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 187,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 188,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 189,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 190,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 191,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 192,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 193,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 194,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 195,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 196,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 197,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 198,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 199,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 200,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 201,
+            "size": "2",
+            "time": 180,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 202,
+            "size": "1",
+            "time": 100,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 203,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 204,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 205,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 206,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 207,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 208,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 209,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 210,
+            "size": "1",
+            "time": 100,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 211,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 212,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 213,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 214,
+            "size": "3",
+            "time": 230,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 215,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 216,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 217,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 218,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 219,
+            "size": "3",
+            "time": 240,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 220,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 221,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 222,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 223,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 224,
+            "size": "3",
+            "time": 250,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 225,
+            "size": "1",
+            "time": 70,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 226,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 227,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 228,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 229,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 230,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 231,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 232,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 233,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 234,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 2
+        },
+        {
+            "level": 235,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 236,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 3
+        },
+        {
+            "level": 237,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 238,
+            "size": "1",
+            "time": 100,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 239,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 240,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 241,
+            "size": "2",
+            "time": 160,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 242,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 243,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 244,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 245,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 246,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 247,
+            "size": "3",
+            "time": 260,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 248,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 249,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 250,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 251,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 252,
+            "size": "3",
+            "time": 250,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 253,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 254,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 255,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 256,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 257,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 258,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 259,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 260,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 261,
+            "size": "2",
+            "time": 150,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 262,
+            "size": "4",
+            "time": 260,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 263,
+            "size": "1",
+            "time": 59,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 264,
+            "size": "2",
+            "time": 170,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 265,
+            "size": "1",
+            "time": 70,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 266,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 267,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 268,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 269,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 270,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 271,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 272,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 273,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 274,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 275,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 276,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 277,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 278,
+            "size": "1",
+            "time": 100,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 279,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 280,
+            "size": "3",
+            "time": 280,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 281,
+            "size": "1",
+            "time": 80,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 282,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 283,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 284,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 285,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 286,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 287,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 288,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 289,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 290,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 291,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 292,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 293,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 294,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 295,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 296,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 297,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 298,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 299,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 300,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 301,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 302,
+            "size": "1",
+            "time": 80,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 303,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 304,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 305,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 306,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 307,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 308,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 309,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 310,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 311,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 312,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 313,
+            "size": "3",
+            "time": 280,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 314,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 315,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 316,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 317,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 318,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 319,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 320,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 321,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 322,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 323,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 324,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 325,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 326,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 327,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 328,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 329,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 330,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 331,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 332,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 333,
+            "size": "2",
+            "time": 180,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 334,
+            "size": "1",
+            "time": 100,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 335,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 336,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 337,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 338,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 339,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 340,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 341,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 342,
+            "size": "1",
+            "time": 100,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 343,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 344,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 345,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 346,
+            "size": "3",
+            "time": 230,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 347,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 348,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 349,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 350,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 351,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 352,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 353,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 354,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 356,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 357,
+            "size": "1",
+            "time": 90,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 358,
+            "size": "1",
+            "time": 90,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 359,
+            "size": "1",
+            "time": 90,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 360,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 361,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 362,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 363,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 364,
+            "size": "3",
+            "time": 250,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 365,
+            "size": "1",
+            "time": 100,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 366,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 367,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 368,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 369,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 370,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 371,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 372,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 373,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 374,
+            "size": "1",
+            "time": 100,
+            "haveBomb": true,
+            "moveType": 2
+        },
+        {
+            "level": 375,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 376,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 3
+        },
+        {
+            "level": 377,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 378,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 379,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 380,
+            "size": "1",
+            "time": 381,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 381,
+            "size": "2",
+            "time": 160,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 382,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 383,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 384,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 385,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 386,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 387,
+            "size": "3",
+            "time": 280,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 388,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 389,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 390,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 391,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 392,
+            "size": "3",
+            "time": 250,
+            "haveBomb": true,
+            "moveType": 2
+        },
+        {
+            "level": 393,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 394,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 395,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 396,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 397,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 398,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 399,
+            "size": "2",
+            "time": 170,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 400,
+            "size": "1",
+            "time": 60,
+            "haveBomb": true,
+            "moveType": 5
+        },
+
+        {
+            "level": 401,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 402,
+            "size": "1",
+            "time": 90,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 403,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 404,
+            "size": "1",
+            "time": 90,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 405,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 406,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 407,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 408,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 409,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 410,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 411,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 412,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 413,
+            "size": "3",
+            "time": 280,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 414,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 415,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 416,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 417,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 418,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 419,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 420,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 421,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 422,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 423,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 424,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 425,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 426,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 427,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 428,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 429,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 430,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 431,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 432,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 433,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 434,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 435,
+            "size": "1",
+            "time": 80,
+            "haveBomb": true,
+            "moveType": 3
+        },
+        {
+            "level": 436,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 437,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 438,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 439,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 440,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 441,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 442,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 443,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 444,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 445,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 446,
+            "size": "3",
+            "time": 280,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 447,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 448,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 449,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 450,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 451,
+            "size": "3",
+            "time": 240,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 452,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 453,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 454,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 455,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 456,
+            "size": "3",
+            "time": 280,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 457,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 458,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 459,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 460,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 461,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 462,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 463,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 464,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 465,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 466,
+            "size": "2",
+            "time": 180,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 467,
+            "size": "1",
+            "time": 100,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 468,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 469,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 470,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 471,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 472,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 473,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 474,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 475,
+            "size": "1",
+            "time": 100,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 476,
+            "size": "2",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 477,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 478,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 479,
+            "size": "3",
+            "time": 230,
+            "haveBomb": true,
+            "moveType": 5
+        },
+        {
+            "level": 480,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 481,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 482,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 3
+        },
+        {
+            "level": 483,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 484,
+            "size": "3",
+            "time": 240,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 485,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 486,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 1
+        },
+        {
+            "level": 487,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 488,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 489,
+            "size": "3",
+            "time": 250,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 490,
+            "size": "1",
+            "time": 70,
+            "haveBomb": false,
+            "moveType": 4
+        },
+        {
+            "level": 491,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 492,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 493,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 493,
+            "size": "4",
+            "time": 370,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 494,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 5
+        },
+        {
+            "level": 495,
+            "size": "2",
+            "time": 200,
+            "haveBomb": true,
+            "moveType": 0
+        },
+        {
+            "level": 496,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 1
+        },
+        {
+            "level": 497,
+            "size": "1",
+            "time": 130,
+            "haveBomb": false,
+            "moveType": 0
+        },
+        {
+            "level": 498,
+            "size": "1",
+            "time": 130,
+            "haveBomb": true,
+            "moveType": 2
+        },
+        {
+            "level": 499,
+            "size": "2",
+            "time": 200,
+            "haveBomb": false,
+            "moveType": 2
+        },
+        {
+            "level": 500,
+            "size": "1",
+            "time": 50,
+            "haveBomb": true,
+            "moveType": 3
+        },
+        {
+            "level": 501,
+            "size": "2",
+            "time": 120,
+            "haveBomb": true,
+            "moveType": 2
+        },
+
+        {
+            "level": 502,
+            "size": "3",
+            "time": 180,
+            "haveBomb": false,
+            "moveType": 5
+        }
+        
+    ],
+    "size": {
+        "1": {
+            "row": 8,
+            "col": 5
+        },
+        "2": {
+            "row": 10,
+            "col": 6
+        },
+        "3": {
+            "row": 10,
+            "col": 7
+        },
+        "4": {
+            "row": 12,
+            "col": 8
+        }
+
+    }
+
+}

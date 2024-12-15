@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826e3fbbfdb9d9843a24a6e897a3af45, type: 3}
+  m_Name: EasyIAPDataRuntime
+  m_EditorClassIdentifier: 
+  debug: 0
+  useReceiptValidation: 0
+  usePlaymaker: 0
+  useUVS: 0
+  useForGooglePlay: 1
+  useForAmazon: 0
+  useForIos: 0
+  useForMac: 0
+  useForWindows: 0
+  shopProducts:
+  - productName: RemoveAds
+    productType: 1
+    idGooglePlay: com.patcell.tilebuddy.removeads
+    idAmazon: 
+    idIOS: 
+    idMac: 
+    idWindows: 
+    value: 0
+    localizedPriceString: '-'
+    price: 0
+    isoCurrencyCode: 
+    receipt: 
+  - productName: Coins1
+    productType: 0
+    idGooglePlay: com.patcell.tilebuddy.coin1
+    idAmazon: 
+    idIOS: 
+    idMac: 
+    idWindows: 
+    value: 200
+    localizedPriceString: '-'
+    price: 0
+    isoCurrencyCode: 
+    receipt: 
+  - productName: Coins2
+    productType: 0
+    idGooglePlay: com.patcell.tilebuddy.coin2
+    idAmazon: 
+    idIOS: 
+    idMac: 
+    idWindows: 
+    value: 800
+    localizedPriceString: '-'
+    price: 0
+    isoCurrencyCode: 
+    receipt: 
+  - productName: Coins3
+    productType: 0
+    idGooglePlay: com.patcell.tilebuddy.coin3
+    idAmazon: 
+    idIOS: 
+    idMac: 
+    idWindows: 
+    value: 1200
+    localizedPriceString: '-'
+    price: 0
+    isoCurrencyCode: 
+    receipt: 
+  - productName: Coins4
+    productType: 0
+    idGooglePlay: com.patcell.tilebuddy.coin4
+    idAmazon: 
+    idIOS: 
+    idMac: 
+    idWindows: 
+    value: 2200
+    localizedPriceString: '-'
+    price: 0
+    isoCurrencyCode: 
+    receipt: 
+  - productName: Coins5
+    productType: 0
+    idGooglePlay: com.patcell.tilebuddy.coin5
+    idAmazon: 
+    idIOS: 
+    idMac: 
+    idWindows: 
+    value: 10400
+    localizedPriceString: '-'
+    price: 0
+    isoCurrencyCode: 
+    receipt: 

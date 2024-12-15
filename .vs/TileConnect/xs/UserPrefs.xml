@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{C8B03B2D-7F8B-A588-C91A-014D8396B837}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Config/Gallery.json">
+    <Files>
+      <File FileName="Assets/Resources/Config/Gallery.json" Line="11" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="797fb8d8-3359-4a23-94a6-0cf2a2fac0f1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

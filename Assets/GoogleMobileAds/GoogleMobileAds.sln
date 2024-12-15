@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.25
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB9-8B4A-11D0-8D11-00A0C91BC942}") = "GoogleMobileAds", "GoogleMobileAds.dll", "{208763A4-D8BD-4C54-92E2-98E7F4EC3BEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{208763A4-D8BD-4C54-92E2-98E7F4EC3BEF}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{208763A4-D8BD-4C54-92E2-98E7F4EC3BEF}.Default|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6111529B-A5BD-44EC-BB9B-DFFA2CEE3472}
+	EndGlobalSection
+EndGlobal
